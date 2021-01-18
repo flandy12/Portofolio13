@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="{{asset('./css/index.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('./css/index.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -44,13 +44,13 @@
                     Saya Flandy Rockyliano M</h2>
                 <p>Saya Seorang <span>Full Stack Devoloper</span> </p>
             </div>
-            <img src="{{asset('./img/profile.png')}}" alt="" class="img">
+            <img src="{{secure_asset('./img/profile.png')}}" alt="" class="img">
         </div>
     </div>
 
     <div class="MainTwo">
         <div class="fondasi" id="main2">
-            <img src="{{asset('./img/profile2.png')}}" alt="" class="img2">
+            <img src="{{secure_asset('./img/profile2.png')}}" alt="" class="img2">
             <div class="text">
                 <h3>Tentang</h3>
                 <hr><br>
@@ -74,12 +74,12 @@
             <div class="skil">
                 <div class="row">
                     <div class="col">
-                        <img src="{{asset('img/php.png')}}" alt="" width="60px">
-                        <img src="{{asset('img/php_btn.png')}}" alt="" width="200px" height="20px" class="phpbtn">
+                        <img src="{{secure_asset('img/php.png')}}" alt="" width="60px">
+                        <img src="{{secure_asset('img/php_btn.png')}}" alt="" width="200px" height="20px" class="phpbtn">
                     </div>
                     <div class="col">
-                        <img src="{{asset('img/mikrotik.png')}}" alt="" width="60px">
-                        <img src="{{asset('img/mikrotik_btn.png')}}" alt="" width="200px" height="20px" class="phpbtn">
+                        <img src="{{secure_asset('img/mikrotik.png')}}" alt="" width="60px">
+                        <img src="{{secure_asset('img/mikrotik_btn.png')}}" alt="" width="200px" height="20px" class="phpbtn">
                     </div>
                  
                 </div>
@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <script src="{{asset('js/index.js')}}"></script>
+    <script src="{{secure_asset('js/index.js')}}"></script>
 </body>
 
 </html>
