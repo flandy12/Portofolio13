@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgba(255, 255, 255, 0.89);
+}
+.fondasi {
+    max-width: 1200px;
+}
+.MainOne {
+    padding: 5%;
+    background: linear-gradient(to bottom left,rgb(38, 0, 255),rgb(4, 163, 255));
+}
+.MainOne .fondasi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.MainOne .fondasi img{
+    width: 500px;
+}
+.MainOne .fondasi .text{
+    margin: auto 0;
+}
+.MainOne .fondasi span{
+    padding: 2px 4px;
+    background-color: rgb(140, 0, 255);
+}
+.MainTwo{
+    font-size: 18px;
+    color: black;
+    padding: 40px 0;
+}
+.MainTwo .fondasi{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.MainTwo .img2:hover{
+    filter: drop-shadow(0 0 20px rgba(70, 69, 69, 0.479));
+}
+.MainTwo .fondasi .text{
+    padding: 10px 30px;
+    margin: auto 0px;
+    box-shadow: 0 20px 20px  rgba(214, 212, 212, 0.623);
+    letter-spacing: 2px;
+}
+.MainTwo .fondasi .text h3{
+    text-align: center;
+}
+.MainTwo .fondasi .text hr{
+    width: 50px;
+    margin: auto;
+    height: 1px;
+     background-color: rgb(106, 255, 138);
+ }
+
+.MainThere{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(11, 1, 39);
+}
+.MainThere .fondasi hr{
+    margin: auto;
+    background-color: rgb(1, 255, 255);
+    width: 100px;
+}
+
+.MainThere .fondasi .skil .col{
+    margin: 20px;
+}
+.MainThere .fondasi .skil{
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+}
+.MainThere .fondasi .row .phpbtn{
+    margin: auto  20px 20px;
+}
