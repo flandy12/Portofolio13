@@ -107,15 +107,6 @@
         </div>
     </div>
 
-    <!-- cara membaca file yang berasal dari folder storage/holas.txt -->
-    <!-- @foreach(file('storage/holas.txt') as $line)
-    <p>{{$line}}</p>
-    @endforeach -->
-
-    <!-- @foreach($c as $b)
-    <img src="{{url($b)}}" alt="" width="60px">
-    @endforeach -->
-
     <script src="{{asset('js/index.js')}}"></script>
 </body>
 
