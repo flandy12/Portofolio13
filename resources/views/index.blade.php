@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <script src="{{secure_asset('js/index.js')}}"></script>
+    <script src="{{secure_asset('./js/index.js')}}"></script>
 </body>
 
 </html>
